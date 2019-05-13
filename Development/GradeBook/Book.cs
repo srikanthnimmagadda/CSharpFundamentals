@@ -9,7 +9,7 @@ namespace GradeBook
         /// 
         /// </summary>
         private List<double> _grades;
-        private string _name;
+        public string Name;
 
         /// <summary>
         /// 
@@ -17,7 +17,7 @@ namespace GradeBook
         public Book(string name)
         {
             _grades = new List<double>();
-            _name = name;
+            Name = name;
         }
 
         /// <summary>

@@ -5,7 +5,7 @@ namespace GradeBook.Tests
     public class BookTest
     {
         [Fact]
-        public void Test()
+        public void GetBookStatistics()
         {
             // Arrange
             var book = new Book("New Book");
